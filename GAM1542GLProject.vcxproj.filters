@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{932aaeb3-e5e1-4753-a676-2862bafc1cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{eb47c53c-2a54-4c12-a4fb-9e9769304cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{27a1a792-900b-481f-a935-99ac27807878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GL">
+      <UniqueIdentifier>{49eab2c6-21d6-4c27-964a-2529b06ab43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\lodepng">
+      <UniqueIdentifier>{032889b0-63e3-4061-900e-cce2507da25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility">
+      <UniqueIdentifier>{1319b681-32c8-4ef1-8ba6-74878cb0a39a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework">
+      <UniqueIdentifier>{81d1ea11-a616-4ee8-9081-4309bb2ca75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Base">
+      <UniqueIdentifier>{f91baf98-eedd-406b-9fb4-aeda1dec0bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Services">
+      <UniqueIdentifier>{06475823-e82b-4343-a12b-3e805d775a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Base\Particles">
+      <UniqueIdentifier>{e1a5e551-f775-483c-95e4-58d39c7ff0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility\Math">
+      <UniqueIdentifier>{cf0a3702-302a-4210-9c32-9c2b5d1ad800}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GL\glext.h">
+      <Filter>Source\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\GLExtensions.h">
+      <Filter>Source\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\wglext.h">
+      <Filter>Source\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\lodepng\lodepng.h">
+      <Filter>Source\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\MyMatrix.h">
+      <Filter>Source\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Utility.h">
+      <Filter>Source\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Vector.h">
+      <Filter>Source\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Helpers.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\ShaderProgram.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CommonHeader.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Base\Camera.h">
+      <Filter>Source\Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Base\GameObject.h">
+      <Filter>Source\Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Base\Mesh.h">
+      <Filter>Source\Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Base\Scene.h">
+      <Filter>Source\Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Base\Particles\Particle.h">
+      <Filter>Source\Framework\Base\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Base\Particles\ParticleEmitter.h">
+      <Filter>Source\Framework\Base\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Base\Particles\ParticleRenderer.h">
+      <Filter>Source\Framework\Base\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Base\Particles\ParticleSystem.h">
+      <Filter>Source\Framework\Base\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\GameFramework.h">
+      <Filter>Source\Framework\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\InputManager.h">
+      <Filter>Source\Framework\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\ResourcesManager.h">
+      <Filter>Source\Framework\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\SceneManager.h">
+      <Filter>Source\Framework\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\Shapes.h">
+      <Filter>Source\Framework\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\Structs.h">
+      <Filter>Source\Framework\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\Pool.h">
+      <Filter>Source\Framework\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Base\RectangleObject.h">
+      <Filter>Source\Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LivingObject.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PowerUp.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Projectile.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Base\NumberFontSystem.h">
+      <Filter>Source\Framework\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\GL\GLExtensions.cpp">
+      <Filter>Source\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\lodepng\lodepng.cpp">
+      <Filter>Source\lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\MyMatrix.cpp">
+      <Filter>Source\Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\Vector.cpp">
+      <Filter>Source\Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Helpers.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\ShaderProgram.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinMain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Base\Camera.cpp">
+      <Filter>Source\Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Base\GameObject.cpp">
+      <Filter>Source\Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Base\Mesh.cpp">
+      <Filter>Source\Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Base\Scene.cpp">
+      <Filter>Source\Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Base\Particles\Particle.cpp">
+      <Filter>Source\Framework\Base\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Base\Particles\ParticleEmitter.cpp">
+      <Filter>Source\Framework\Base\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Base\Particles\ParticleRenderer.cpp">
+      <Filter>Source\Framework\Base\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Base\Particles\ParticleSystem.cpp">
+      <Filter>Source\Framework\Base\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Services\GameFramework.cpp">
+      <Filter>Source\Framework\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Services\InputManager.cpp">
+      <Filter>Source\Framework\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Services\ResourcesManager.cpp">
+      <Filter>Source\Framework\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Services\SceneManager.cpp">
+      <Filter>Source\Framework\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Services\Shapes.cpp">
+      <Filter>Source\Framework\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Base\RectangleObject.cpp">
+      <Filter>Source\Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Base\NumberFontSystem.cpp">
+      <Filter>Source\Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LivingObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PowerUp.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Projectile.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Shaders\FragColor.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\FragColor.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\FragColorTexture.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\FragColorTexture.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\Texture.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\Texture.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\VaryingColor.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\VaryingColor.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\VaryingColorTexture.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\VaryingColorTexture.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\VerticalFillOutAnimation.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\VerticalFillOutAnimation.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\VerticalFillInAnimation.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\VerticalFillInAnimation.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\FragBackColor.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\FragBackColor.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\VertexEffect.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\VertexEffect.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\FragmentEffect.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\FragmentEffect.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Data\Shaders\VaryingColorEffect.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\VaryingColorEffect.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
